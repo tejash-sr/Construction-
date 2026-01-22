@@ -50,7 +50,6 @@ const Footer = () => {
               {[
                 { name: 'About Us', path: '/about' },
                 { name: 'Our Services', path: '/services' },
-                { name: 'Projects', path: '/projects' },
                 { name: 'Why Choose Us', path: '/why-choose-us' },
                 { name: 'Contact', path: '/contact' },
               ].map((link) => (
