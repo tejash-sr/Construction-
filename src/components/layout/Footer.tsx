@@ -95,21 +95,22 @@ const Footer = () => {
               <li className="flex items-start gap-3 text-muted-foreground">
                 <MapPin className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
                 <span className="text-sm">
-                  123, Industrial Area,<br />
-                  Chennai, Tamil Nadu 600001,<br />
-                  India
+                  1/18, Kudi Street,<br />
+                  Near Panchayat Headquarter,<br />
+                  Mettupalayam, Kokkalai,<br />
+                  Namakkal, Tamil Nadu 637410
                 </span>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Phone className="h-5 w-5 text-primary flex-shrink-0" />
-                <a href="tel:+919876543210" className="text-sm hover:text-primary transition-colors">
-                  +91 98765 43210
+                <a href="tel:+919003633552" className="text-sm hover:text-primary transition-colors">
+                  +91 90036 33552
                 </a>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="h-5 w-5 text-primary flex-shrink-0" />
-                <a href="mailto:info@iniyanandco.com" className="text-sm hover:text-primary transition-colors">
-                  info@iniyanandco.com
+                <a href="mailto:iniyanandco@gmail.com" className="text-sm hover:text-primary transition-colors">
+                  iniyanandco@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">

@@ -44,19 +44,19 @@ const Contact = () => {
     {
       icon: MapPin,
       title: 'Our Address',
-      content: ['123, Industrial Area,', 'Chennai, Tamil Nadu 600001,', 'India'],
+      content: ['1/18, Kudi Street, Near Panchayat Headquarter,', 'Mettupalayam, Kokkalai,', 'Namakkal, Tamil Nadu 637410'],
     },
     {
       icon: Phone,
       title: 'Phone Number',
-      content: ['+91 98765 43210', '+91 98765 43211'],
+      content: ['+91 90036 33552'],
       isLink: true,
       linkPrefix: 'tel:',
     },
     {
       icon: Mail,
       title: 'Email Address',
-      content: ['info@iniyanandco.com', 'projects@iniyanandco.com'],
+      content: ['iniyanandco@gmail.com'],
       isLink: true,
       linkPrefix: 'mailto:',
     },
@@ -250,14 +250,14 @@ const Contact = () => {
               {/* Map */}
               <div className="mt-8 bg-card border border-border aspect-video">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.90089942983!2d80.04419754218748!3d12.953945614010746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d10bc2d2d05%3A0xfc64c0b9d7d8c4c7!2sChennai%2C%20Tamil%20Nadu%2C%20India!5e0!3m2!1sen!2sus!4v1639568123456!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.8!2d78.0!3d11.4!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sKokkalai%2C%20Namakkal%2C%20Tamil%20Nadu%20637410!5e0!3m2!1sen!2sin!4v1639568123456!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
-                  title="INIYAN & Co Location"
+                  title="INIYAN & Co Location - Kokkalai, Namakkal"
                 />
               </div>
             </motion.div>
