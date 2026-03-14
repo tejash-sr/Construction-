@@ -1,4 +1,34 @@
-# Welcome to your Lovable project
+# Ini-Yan Spark - Construction Website
+
+A modern, full-stack construction company website with MongoDB authentication.
+
+## 🚀 Quick Start
+
+### 🔐 Authentication System (NEW!)
+
+This project now includes a complete authentication system. See documentation:
+
+- **[QUICK_START.md](QUICK_START.md)** - Get started in 2 minutes
+- **[README_AUTH.md](README_AUTH.md)** - Complete authentication documentation
+- **[IMPLEMENTATION_SUMMARY.md](IMPLEMENTATION_SUMMARY.md)** - What's been implemented
+- **[TESTING_GUIDE.md](TESTING_GUIDE.md)** - Testing scenarios
+
+### Start the Application
+
+**Terminal 1 - Backend:**
+```bash
+cd backend
+npm install
+npm run dev
+```
+
+**Terminal 2 - Frontend:**
+```bash
+npm install
+npm run dev
+```
+
+Visit http://localhost:8080 and sign up!
 
 ## Project info
 
