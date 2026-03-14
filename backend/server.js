@@ -6,6 +6,7 @@ import authRoutes from './routes/authRoutes.js';
 import adminRoutes from './routes/adminRoutes.js';
 import publicRoutes from './routes/publicRoutes.js';
 import appointmentRoutes from './routes/appointmentRoutes.js';
+import visualizeRoutes from './routes/visualizeRoutes.js';
 import { startAppointmentReminderCron } from './utils/appointmentReminder.js';
 
 // Load environment variables
@@ -29,6 +30,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/admin', adminRoutes);
 app.use('/api', publicRoutes);
 app.use('/api/appointments', appointmentRoutes);
+app.use('/api/visualize', visualizeRoutes);
 
 // Health check route
 app.get('/api/health', (req, res) => {

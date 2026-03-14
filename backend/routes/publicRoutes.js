@@ -5,6 +5,7 @@ import { createContactMessage } from '../controllers/messageController.js';
 import { getPublicProjects } from '../controllers/projectController.js';
 import { getPublicSettings } from '../controllers/settingsController.js';
 import { approveAppointmentViaEmail, cancelAppointmentViaEmail } from '../controllers/appointmentController.js';
+import { generateVisualization } from '../controllers/visualizationController.js';
 
 const router = express.Router();
 
@@ -12,6 +13,7 @@ const router = express.Router();
 router.get('/projects', getPublicProjects);
 router.get('/settings', getPublicSettings);
 router.post('/messages', createContactMessage);
+router.post('/visualize', generateVisualization);
 
 // Appointment email action routes (no auth required - secured by token)
 router.get('/appointments/:id/approve', approveAppointmentViaEmail);

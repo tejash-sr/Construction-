@@ -18,6 +18,7 @@ const navLinks = [
   { name: 'About', path: '/about' },
   { name: 'Services', path: '/services' },
   { name: 'Why Choose Us', path: '/why-choose-us' },
+  { name: 'Visualize', path: '/visualize' },
   { name: 'Contact', path: '/contact' },
 ];
 

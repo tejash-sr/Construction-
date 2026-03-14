@@ -12,6 +12,7 @@ import About from "./pages/About";
 import Services from "./pages/Services";
 import WhyChooseUs from "./pages/WhyChooseUs";
 import Contact from "./pages/Contact";
+import Visualize from "./pages/Visualize";
 import NotFound from "./pages/NotFound";
 import Login from "./pages/auth/Login";
 import SignUp from "./pages/auth/SignUp";
@@ -63,6 +64,7 @@ const App = () => (
             <Route path="/about" element={<ProtectedRoute><About /></ProtectedRoute>} />
             <Route path="/services" element={<ProtectedRoute><Services /></ProtectedRoute>} />
             <Route path="/why-choose-us" element={<ProtectedRoute><WhyChooseUs /></ProtectedRoute>} />
+            <Route path="/visualize" element={<ProtectedRoute><Visualize /></ProtectedRoute>} />
             <Route path="/contact" element={<ProtectedRoute><Contact /></ProtectedRoute>} />
             
             {/* 404 */}
